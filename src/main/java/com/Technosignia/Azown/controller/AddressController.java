@@ -44,5 +44,10 @@ public class AddressController {
 		return addressService.getAllAddress();
 	}
 	
+	@GetMapping("/home")
+	public String home() {
+		return "Home Page";
+	}
+	
 	
 }

@@ -31,6 +31,11 @@ public class OwnerController {
 		return	ownerservice.getOwnerPropertiesByOwnerId(id);
 	}
 	
+	@GetMapping("/home")
+	public String home() {
+		return "Home Page";
+	}
+	
 	
 	
 	
